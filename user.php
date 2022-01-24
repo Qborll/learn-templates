@@ -16,6 +16,3 @@ userCode(new ProductALogistic,"Phone ","22-08-2008 ","№12 ");
 echo "\n";
 
 userCode(new ProductBLogistic,"Mac Book ","12-06-2022 ","№11");
-
-
-echo "";
