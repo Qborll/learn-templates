@@ -6,5 +6,10 @@ spl_autoload_register(function ($class_name) {
 
 $tea= new TeaPropertiesDecorator(new Tea);
 
+$coffee = new CoffePropertiesDecorator(new Coffee);
+
 echo $tea->getDrinkable();
+
+echo $coffee->getDrinkable();
+
 

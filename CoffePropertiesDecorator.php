@@ -5,16 +5,16 @@ class CoffePropertiesDecorator extends CoffeeDecorator{
         parent::__construct($decoratedCoffee);
     }
     private function GroundCoffee(){
-        echo "this is ground coffee";
+        echo "this is ground coffee \n";
     }
 
     private function InstantCoffee(){
-        echo "this is instant coffee";
+        echo "this is instant coffee \n";
     }
 
     public function getDrinkable()
     {
-        $this->decoratedTea->getDrinkable();
+        $this->decoratedCoffee->getDrinkable();
         $this->GroundCoffee();
         $this->InstantCoffee();
     }
