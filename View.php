@@ -13,7 +13,7 @@ public function __construct($controller,$model)
 }
 
     public function output(){
-//    return "<p>". $this->model->string . "</p>";
+
         return "<p><a href='user.php?action=clicked'>" . $this->model->string . "</a></p>";
 
     }
